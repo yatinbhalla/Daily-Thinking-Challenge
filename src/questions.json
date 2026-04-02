@@ -1,0 +1,1362 @@
+[
+  {
+    "id": 1,
+    "question": "Which letter is different: A, E, F, H, K",
+    "answer": "A",
+    "explanation": "All others are made only with straight lines, A uses a slanted structure.",
+    "type": "observation",
+    "image": null
+  },
+  {
+    "id": 2,
+    "question": "What comes next: 2, 6, 12, 20, ?",
+    "answer": "30",
+    "explanation": "Pattern is +4, +6, +8, +10",
+    "type": "pattern",
+    "image": null
+  },
+  {
+    "id": 3,
+    "question": "You see a room with no windows and no doors, how did you enter?",
+    "answer": "It is a puzzle / imagination scenario",
+    "explanation": "The question assumes physical logic, but it is imaginary.",
+    "type": "lateral",
+    "image": null
+  },
+  {
+    "id": 4,
+    "question": "Which number is different: 3, 5, 7, 9, 11",
+    "answer": "9",
+    "explanation": "All others are prime numbers, 9 is not.",
+    "type": "logic",
+    "image": null
+  },
+  {
+    "id": 5,
+    "question": "What has keys but cannot open locks?",
+    "answer": "Keyboard",
+    "explanation": "Keys refer to keyboard keys.",
+    "type": "lateral",
+    "image": null
+  },
+  {
+    "id": 6,
+    "question": "Find next: 1, 1, 2, 3, 5, 8, ?",
+    "answer": "13",
+    "explanation": "Fibonacci sequence.",
+    "type": "pattern",
+    "image": null
+  },
+  {
+    "id": 7,
+    "question": "Which word is different: Cow, Goat, Tiger, Dog",
+    "answer": "Tiger",
+    "explanation": "Others are herbivores, tiger is carnivore.",
+    "type": "logic",
+    "image": null
+  },
+  {
+    "id": 8,
+    "question": "You have 3 switches and 1 bulb in another room. How to know which switch controls it with one visit?",
+    "answer": "Turn one on, one off, wait, check heat",
+    "explanation": "Heat shows which was on before.",
+    "type": "lateral",
+    "image": null
+  },
+  {
+    "id": 9,
+    "question": "Which is different: Circle, Triangle, Square, Sphere",
+    "answer": "Sphere",
+    "explanation": "Sphere is 3D, others are 2D.",
+    "type": "observation",
+    "image": null
+  },
+  {
+    "id": 10,
+    "question": "Next: 5, 10, 20, 40, ?",
+    "answer": "80",
+    "explanation": "Multiply by 2",
+    "type": "pattern",
+    "image": null
+  },
+  {
+    "id": 11,
+    "question": "What runs but never walks?",
+    "answer": "River",
+    "explanation": "Common riddle.",
+    "type": "lateral",
+    "image": null
+  },
+  {
+    "id": 12,
+    "question": "Which is odd: 2, 4, 6, 8, 9",
+    "answer": "9",
+    "explanation": "Only odd number.",
+    "type": "logic",
+    "image": null
+  },
+  {
+    "id": 13,
+    "question": "Find next: 1, 4, 9, 16, ?",
+    "answer": "25",
+    "explanation": "Square numbers.",
+    "type": "pattern",
+    "image": null
+  },
+  {
+    "id": 14,
+    "question": "What gets wetter as it dries?",
+    "answer": "Towel",
+    "explanation": "Classic riddle.",
+    "type": "lateral",
+    "image": null
+  },
+  {
+    "id": 15,
+    "question": "Which is different: Apple, Banana, Carrot, Mango",
+    "answer": "Carrot",
+    "explanation": "Others are fruits.",
+    "type": "logic",
+    "image": null
+  },
+  {
+    "id": 16,
+    "question": "Next: 3, 6, 9, 12, ?",
+    "answer": "15",
+    "explanation": "Add 3",
+    "type": "pattern",
+    "image": null
+  },
+  {
+    "id": 17,
+    "question": "What has hands but cannot clap?",
+    "answer": "Clock",
+    "explanation": "Hands of clock.",
+    "type": "lateral",
+    "image": null
+  },
+  {
+    "id": 18,
+    "question": "Which is different: Red, Blue, Green, Dog",
+    "answer": "Dog",
+    "explanation": "Others are colors.",
+    "type": "observation",
+    "image": null
+  },
+  {
+    "id": 19,
+    "question": "Next: 10, 9, 8, 7, ?",
+    "answer": "6",
+    "explanation": "Subtract 1",
+    "type": "pattern",
+    "image": null
+  },
+  {
+    "id": 20,
+    "question": "What has a neck but no head?",
+    "answer": "Bottle",
+    "explanation": "Bottle neck.",
+    "type": "lateral",
+    "image": null
+  },
+  {
+    "id": 21,
+    "question": "Which is different: Gold, Silver, Iron, Wood",
+    "answer": "Wood",
+    "explanation": "Others are metals.",
+    "type": "logic",
+    "image": null
+  },
+  {
+    "id": 22,
+    "question": "Next: 2, 3, 5, 7, ?",
+    "answer": "11",
+    "explanation": "Prime numbers.",
+    "type": "pattern",
+    "image": null
+  },
+  {
+    "id": 23,
+    "question": "What has one eye but cannot see?",
+    "answer": "Needle",
+    "explanation": "Needle eye.",
+    "type": "lateral",
+    "image": null
+  },
+  {
+    "id": 24,
+    "question": "Which is different: Car, Bus, Train, Table",
+    "answer": "Table",
+    "explanation": "Others are vehicles.",
+    "type": "logic",
+    "image": null
+  },
+  {
+    "id": 25,
+    "question": "Next: 1, 3, 6, 10, ?",
+    "answer": "15",
+    "explanation": "Add +2 +3 +4 +5",
+    "type": "pattern",
+    "image": null
+  },
+  {
+    "id": 26,
+    "question": "What can travel around the world while staying in one place?",
+    "answer": "Stamp",
+    "explanation": "Stamp on letter.",
+    "type": "lateral",
+    "image": null
+  },
+  {
+    "id": 27,
+    "question": "Which is different: Sun, Moon, Star, Lamp",
+    "answer": "Lamp",
+    "explanation": "Others are natural.",
+    "type": "logic",
+    "image": null
+  },
+  {
+    "id": 28,
+    "question": "Next: 100, 90, 80, 70, ?",
+    "answer": "60",
+    "explanation": "Minus 10",
+    "type": "pattern",
+    "image": null
+  },
+  {
+    "id": 29,
+    "question": "What has legs but cannot walk?",
+    "answer": "Table",
+    "explanation": "Furniture legs.",
+    "type": "lateral",
+    "image": null
+  },
+  {
+    "id": 30,
+    "question": "Which is different: Pen, Pencil, Eraser, Spoon",
+    "answer": "Spoon",
+    "explanation": "Others are stationery.",
+    "type": "observation",
+    "image": null
+  },
+  {
+    "id": 31,
+    "question": "Your app has 1000 users. 100 complain about slow loading, 10 complain about wrong data, and 300 request new features. What should you fix first?",
+    "answer": "Wrong data",
+    "explanation": "Incorrect data breaks trust and core functionality, so it must be fixed before speed or new features.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 32,
+    "question": "You can add one feature: faster performance, new design, or bug fixes. Users complain daily about crashes. What do you choose?",
+    "answer": "Bug fixes",
+    "explanation": "Stability is more important than design or speed when the product is unreliable.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 33,
+    "question": "Users say your app is confusing, but analytics show they still use it daily. What should you do first?",
+    "answer": "Investigate user behavior",
+    "explanation": "Usage data suggests value exists, so understand why they stay before redesigning.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 34,
+    "question": "You have time to build only one: onboarding tutorial or new feature. New users leave quickly. What should you build?",
+    "answer": "Onboarding tutorial",
+    "explanation": "If users leave early, improving first experience gives more impact.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 35,
+    "question": "Your team wants many features, users want simplicity. What should guide decision?",
+    "answer": "User needs",
+    "explanation": "Product decisions should prioritize user value over internal preferences.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 36,
+    "question": "Feature A helps all users a little. Feature B helps few users a lot. Which to choose first?",
+    "answer": "Depends on goal, but usually A",
+    "explanation": "Broad impact often gives more value unless the small group is critical.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 37,
+    "question": "Users ask for a feature, but data shows low usage. What should you trust first?",
+    "answer": "Data with user interviews",
+    "explanation": "Requests may not reflect real behavior, validate with both.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 38,
+    "question": "You must launch tomorrow but know small bugs exist. What matters most?",
+    "answer": "Core feature must work",
+    "explanation": "Minor bugs acceptable, broken core is not.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 39,
+    "question": "Retention is low but downloads are high. What problem does this show?",
+    "answer": "Poor user experience",
+    "explanation": "People try the app but do not find enough value to stay.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 40,
+    "question": "Users say feature is hard, but they use it daily. What does this mean?",
+    "answer": "Feature is valuable but not usable",
+    "explanation": "High value but poor UX.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 41,
+    "question": "You can improve speed by 20% or add new feature. Users complain about slowness. What first?",
+    "answer": "Improve speed",
+    "explanation": "Fix pain before adding value.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 42,
+    "question": "Team wants complex solution, simple solution works. What should PM choose?",
+    "answer": "Simple solution",
+    "explanation": "Simpler is faster, cheaper, and easier to maintain.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 43,
+    "question": "Feature used by 90% but loved by 10%. Should you remove it?",
+    "answer": "Investigate before removing",
+    "explanation": "High usage means hidden value.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 44,
+    "question": "You must choose between quality and speed for launch. What first?",
+    "answer": "Quality of core",
+    "explanation": "Fast launch is useless if product fails.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 45,
+    "question": "Users want many options but get confused. What should you do?",
+    "answer": "Reduce choices",
+    "explanation": "Too many options reduce usability.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 46,
+    "question": "Metrics improved but users complain more. What does this mean?",
+    "answer": "Wrong metric chosen",
+    "explanation": "Numbers can improve while experience worsens.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 47,
+    "question": "New feature increases time spent but users feel tired. Good or bad?",
+    "answer": "Bad",
+    "explanation": "Engagement without value is not success.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 48,
+    "question": "You cannot build everything. What decides priority?",
+    "answer": "Impact vs effort",
+    "explanation": "High impact, low effort first.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 49,
+    "question": "Users do not complain but stop using. What should you check?",
+    "answer": "Retention data",
+    "explanation": "Silence does not mean satisfaction.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 50,
+    "question": "Your idea feels great but users do not care. What now?",
+    "answer": "Change idea",
+    "explanation": "User value matters more than personal opinion.",
+    "type": "pm",
+    "image": null
+  },
+  {
+    "id": 51,
+    "question": "A man lives on the 10th floor. Every day he takes the lift to ground floor to go to work. When he returns, he goes to the 7th floor and walks the rest. Why?",
+    "answer": "He is short and cannot reach button 10",
+    "explanation": "He can reach ground button but not higher buttons.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 52,
+    "question": "You see 3 boxes. One says Apples, one says Oranges, one says Apples & Oranges. All labels are wrong. You can pick one fruit from one box. How to label correctly?",
+    "answer": "Pick from mixed box",
+    "explanation": "Since all labels are wrong, mixed box cannot be mixed.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 53,
+    "question": "Which is heavier: 1 kg of iron or 1 kg of cotton?",
+    "answer": "Same",
+    "explanation": "Weight is equal, only volume differs.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 54,
+    "question": "A clock shows 3:15. What is the angle between hour and minute hand?",
+    "answer": "7.5 degrees",
+    "explanation": "Hour hand moves with time, not fixed at 3.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 55,
+    "question": "You have two ropes that each burn in 60 minutes but unevenly. How to measure 45 minutes?",
+    "answer": "Burn both ends of one and one end of other",
+    "explanation": "First finishes in 30, second finishes in 15 more.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 56,
+    "question": "A farmer has 17 sheep, all but 9 die. How many left?",
+    "answer": "9",
+    "explanation": "All but 9 die means 9 remain.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 57,
+    "question": "You are in a race and pass the person in second place. What place are you now?",
+    "answer": "Second",
+    "explanation": "You take their position.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 58,
+    "question": "There are 5 machines making 5 items in 5 minutes. How long for 100 machines to make 100 items?",
+    "answer": "5 minutes",
+    "explanation": "Each machine makes one in 5 minutes.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 59,
+    "question": "You see a boat filled with people, but there is not a single person on board. Why?",
+    "answer": "All are married",
+    "explanation": "Single means unmarried.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 60,
+    "question": "A man pushes his car to a hotel and loses all his money. Why?",
+    "answer": "Monopoly game",
+    "explanation": "Not real life scenario.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 61,
+    "question": "You have a 5L and 3L jug. Measure exactly 4L.",
+    "answer": "Fill 5, pour to 3, empty 3, pour remaining, fill 5, pour to 3",
+    "explanation": "Classic jug puzzle.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 62,
+    "question": "What occurs once in a minute, twice in a moment, never in a thousand years?",
+    "answer": "Letter M",
+    "explanation": "Count letters.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 63,
+    "question": "If you drop a yellow hat in the Red Sea, what does it become?",
+    "answer": "Wet",
+    "explanation": "Trick question.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 64,
+    "question": "How many months have 28 days?",
+    "answer": "12",
+    "explanation": "All months have at least 28.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 65,
+    "question": "A doctor gives you 3 pills and says take one every 30 minutes. How long?",
+    "answer": "1 hour",
+    "explanation": "0, 30, 60 minutes.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 66,
+    "question": "Before Mt. Everest was discovered, what was highest mountain?",
+    "answer": "Everest",
+    "explanation": "Still highest even before discovery.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 67,
+    "question": "What has a heart that doesn’t beat?",
+    "answer": "Artichoke",
+    "explanation": "Word trick.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 68,
+    "question": "You walk into a room with a match, lamp, candle, fireplace. What first?",
+    "answer": "Match",
+    "explanation": "Need to light first.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 69,
+    "question": "Which weighs more: a pound of feathers or pound of bricks?",
+    "answer": "Same",
+    "explanation": "Same weight.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 70,
+    "question": "You can hold it without using hands or arms. What is it?",
+    "answer": "Breath",
+    "explanation": "You hold your breath.",
+    "type": "creative",
+    "image": null
+  },
+  {
+    "id": 71,
+    "question": "Your product usage dropped 20% this week. What is the first thing you do?",
+    "answer": "Check data to find where drop happened",
+    "explanation": "Understand where and when the drop occurred before taking action.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 72,
+    "question": "CEO wants a new feature, users never asked for it. What should you do?",
+    "answer": "Validate with users",
+    "explanation": "Decisions should be based on user value, not authority.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 73,
+    "question": "You have 2 weeks to improve product. Fix bugs or add feature?",
+    "answer": "Fix major bugs first",
+    "explanation": "Broken experience reduces trust more than missing feature.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 74,
+    "question": "Users say app is slow but metrics show normal speed. What next?",
+    "answer": "Check real user scenarios",
+    "explanation": "Metrics may not reflect real conditions.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 75,
+    "question": "Two features requested: one by many users, one by important client. Choose?",
+    "answer": "Depends on business goal",
+    "explanation": "Priority depends on strategy, not request count.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 76,
+    "question": "Retention low but acquisition high. What problem?",
+    "answer": "Product not delivering value",
+    "explanation": "People try but do not stay.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 77,
+    "question": "Team wants perfect product, deadline near. What do you do?",
+    "answer": "Ship core value first",
+    "explanation": "Perfection delays learning.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 78,
+    "question": "Feature increases usage but support tickets also increase. Good or bad?",
+    "answer": "Investigate",
+    "explanation": "More usage with more problems may mean poor UX.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 79,
+    "question": "Users want customization, but it makes UI complex. What do?",
+    "answer": "Keep default simple",
+    "explanation": "Complexity hurts most users.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 80,
+    "question": "You can improve onboarding or add feature for existing users. Choose?",
+    "answer": "Depends on growth goal",
+    "explanation": "Decision depends on strategy.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 81,
+    "question": "Metric improved but revenue dropped. Why check?",
+    "answer": "Wrong metric focus",
+    "explanation": "Not all metrics equal value.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 82,
+    "question": "User feedback conflicts with analytics. What trust?",
+    "answer": "Both, investigate deeper",
+    "explanation": "Each gives partial truth.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 83,
+    "question": "You must cut one feature before launch. How decide?",
+    "answer": "Lowest impact",
+    "explanation": "Remove least valuable feature.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 84,
+    "question": "Competitor launches feature first. What do?",
+    "answer": "Check user need first",
+    "explanation": "Not all competitor features matter.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 85,
+    "question": "Users ask for faster app but want more features. Conflict?",
+    "answer": "Prioritize performance",
+    "explanation": "Slow app reduces usability.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 86,
+    "question": "Team disagrees on priority. What should guide?",
+    "answer": "Product goal",
+    "explanation": "Goal decides priority.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 87,
+    "question": "Feature used rarely but critical for few. Remove?",
+    "answer": "Check importance of users",
+    "explanation": "Some users matter more.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 88,
+    "question": "Users say they want feature, but never use it. Why?",
+    "answer": "Stated vs real behavior",
+    "explanation": "People say different from what they do.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 89,
+    "question": "App popular but reviews bad. What check?",
+    "answer": "User satisfaction",
+    "explanation": "Growth may hide problems.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 90,
+    "question": "You must choose speed, quality, or scope. Pick two. Why?",
+    "answer": "Classic tradeoff",
+    "explanation": "All three cannot be maximized.",
+    "type": "pm_hard",
+    "image": null
+  },
+  {
+    "id": 91,
+    "question": "A food delivery app sees orders increasing but profit decreasing. What is the first thing to check?",
+    "answer": "Cost per order",
+    "explanation": "More orders do not mean profit if cost per order is too high.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 92,
+    "question": "A new feature launched but usage is very low. What should you do first?",
+    "answer": "Check if users know about it",
+    "explanation": "Low usage may be due to discoverability, not usefulness.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 93,
+    "question": "Website traffic doubled but signups stayed same. What problem?",
+    "answer": "Conversion issue",
+    "explanation": "More visitors but same signups means funnel problem.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 94,
+    "question": "Users open the app daily but leave quickly. What should you analyze?",
+    "answer": "First screen experience",
+    "explanation": "Early drop means problem in initial interaction.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 95,
+    "question": "Sales dropped after redesign. What first?",
+    "answer": "Compare old vs new flow",
+    "explanation": "Find what changed in user journey.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 96,
+    "question": "Customer support complaints increased after update. What next?",
+    "answer": "Check recent changes",
+    "explanation": "Recent update likely caused issue.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 97,
+    "question": "Users request many features but retention is low. What real problem?",
+    "answer": "Core value missing",
+    "explanation": "Feature requests often hide deeper problem.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 98,
+    "question": "Your app is popular in one city but fails in another. What check?",
+    "answer": "User behavior differences",
+    "explanation": "Different markets have different needs.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 99,
+    "question": "Users spend long time on app but satisfaction low. Why?",
+    "answer": "Confusing experience",
+    "explanation": "More time may mean difficulty, not engagement.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 100,
+    "question": "Revenue increased but active users decreased. What does it mean?",
+    "answer": "Higher spending per user",
+    "explanation": "Fewer users but more paying.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 101,
+    "question": "New users sign up but never return next day. What metric to check?",
+    "answer": "Day 1 retention",
+    "explanation": "Measures early value.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 102,
+    "question": "Feature requested by 50% users but used by 5%. Why?",
+    "answer": "Stated vs actual need",
+    "explanation": "People request but do not use.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 103,
+    "question": "App works fast on WiFi but users complain. Why?",
+    "answer": "Mobile network issue",
+    "explanation": "Real users not always on WiFi.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 104,
+    "question": "Users complete signup but never use feature. What check?",
+    "answer": "Activation step",
+    "explanation": "Signup is not value.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 105,
+    "question": "Your best users stop using after update. Why check first?",
+    "answer": "Changes affecting power users",
+    "explanation": "Heavy users sensitive to change.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 106,
+    "question": "Competitor growing fast, your product stable. What first?",
+    "answer": "Compare value proposition",
+    "explanation": "Growth comes from better value.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 107,
+    "question": "Users abandon checkout at last step. What check?",
+    "answer": "Payment friction",
+    "explanation": "Last step issues block conversion.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 108,
+    "question": "Usage high but reviews bad. What means?",
+    "answer": "Need but poor experience",
+    "explanation": "Users forced to use.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 109,
+    "question": "Team built feature fast but nobody uses it. What mistake?",
+    "answer": "No validation",
+    "explanation": "Built before testing need.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 110,
+    "question": "Users say app is complex, but data shows success. What do?",
+    "answer": "Investigate deeper",
+    "explanation": "Both signals matter.",
+    "type": "case",
+    "image": null
+  },
+  {
+    "id": 111,
+    "question": "You must improve a note-taking app. What should you understand first?",
+    "answer": "User needs",
+    "explanation": "Without knowing user problems, improvements may be useless.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 112,
+    "question": "Users want many features, but app feels slow. What priority?",
+    "answer": "Performance",
+    "explanation": "Speed affects all users.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 113,
+    "question": "You must design a product for students. What first step?",
+    "answer": "Understand their workflow",
+    "explanation": "Product must fit real usage.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 114,
+    "question": "Feature requested by few but used daily by them. Build or not?",
+    "answer": "Check importance of those users",
+    "explanation": "User segment value matters.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 115,
+    "question": "Users say product is boring but still use it. What does this mean?",
+    "answer": "High utility, low delight",
+    "explanation": "Value exists but experience weak.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 116,
+    "question": "Design feature for everyone or for core users first?",
+    "answer": "Core users",
+    "explanation": "Strong core creates strong product.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 117,
+    "question": "Users confused on first use. What improve first?",
+    "answer": "Onboarding",
+    "explanation": "First experience defines retention.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 118,
+    "question": "Users want customization but new users feel lost. What do?",
+    "answer": "Simple default, advanced optional",
+    "explanation": "Balance simplicity and power.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 119,
+    "question": "You can improve UI or add feature. Users complain about usability.",
+    "answer": "Improve UI",
+    "explanation": "Bad usability blocks all features.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 120,
+    "question": "Product popular but not growing. What check?",
+    "answer": "Referral / sharing",
+    "explanation": "Growth needs loop.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 121,
+    "question": "Users open app daily but do little. What improve?",
+    "answer": "Core action",
+    "explanation": "Engagement needs meaningful action.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 122,
+    "question": "You must remove one feature. How choose?",
+    "answer": "Lowest impact",
+    "explanation": "Keep highest value features.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 123,
+    "question": "New users love app, old users complain. Why?",
+    "answer": "Change hurt existing habits",
+    "explanation": "Power users sensitive to change.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 124,
+    "question": "Feature increases clicks but not satisfaction. Good?",
+    "answer": "No",
+    "explanation": "Clicks ≠ value.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 125,
+    "question": "Design for speed or flexibility?",
+    "answer": "Depends on use case",
+    "explanation": "Context decides tradeoff.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 126,
+    "question": "Users ask for many settings. What risk?",
+    "answer": "Complexity",
+    "explanation": "Too many options confuse.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 127,
+    "question": "Your idea sounds cool but solves no problem. Build?",
+    "answer": "No",
+    "explanation": "Problem first, idea second.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 128,
+    "question": "Users complete task but feel slow. What improve?",
+    "answer": "Flow efficiency",
+    "explanation": "Speed of task matters.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 129,
+    "question": "Product easy to use but not useful. Fix what?",
+    "answer": "Value",
+    "explanation": "Useful beats easy.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 130,
+    "question": "You must choose between power users and new users. Who first?",
+    "answer": "Depends on goal",
+    "explanation": "Growth vs retention decision.",
+    "type": "product_sense",
+    "image": null
+  },
+  {
+    "id": 131,
+    "question": "Your product is growing fast but losing money. What should you decide first?",
+    "answer": "Check unit economics",
+    "explanation": "Growth without profit may not be sustainable.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 132,
+    "question": "You can enter a new market or improve current product. What decides?",
+    "answer": "Growth potential vs risk",
+    "explanation": "Strategy depends on opportunity size.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 133,
+    "question": "Competitor copied your feature. What should you do?",
+    "answer": "Focus on core value",
+    "explanation": "Chasing competitor leads to weak strategy.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 134,
+    "question": "Your product has many users but low revenue. What strategy?",
+    "answer": "Improve monetization",
+    "explanation": "Value exists, revenue model weak.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 135,
+    "question": "Small feature for many users or big feature for few paying users?",
+    "answer": "Depends on business goal",
+    "explanation": "Revenue vs growth tradeoff.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 136,
+    "question": "You have limited team. Build new product or improve old one?",
+    "answer": "Strengthen core first",
+    "explanation": "Weak core hurts expansion.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 137,
+    "question": "Users love product but growth slow. What check?",
+    "answer": "Distribution",
+    "explanation": "Good product needs reach.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 138,
+    "question": "High revenue but low satisfaction. Risk?",
+    "answer": "Future churn",
+    "explanation": "Unhappy users leave later.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 139,
+    "question": "Fast growth but many bugs. What risk?",
+    "answer": "Loss of trust",
+    "explanation": "Quality affects long-term success.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 140,
+    "question": "Product works for experts but not beginners. What strategy?",
+    "answer": "Simplify onboarding",
+    "explanation": "Growth needs new users.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 141,
+    "question": "You can reduce cost or increase value. What stronger?",
+    "answer": "Increase value",
+    "explanation": "Value drives growth.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 142,
+    "question": "Market big but competition strong. Enter or not?",
+    "answer": "Check differentiation",
+    "explanation": "Need unique value.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 143,
+    "question": "Users want cheap product, business needs profit. What do?",
+    "answer": "Balance pricing",
+    "explanation": "Must sustain business.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 144,
+    "question": "One feature drives most usage. What strategy?",
+    "answer": "Strengthen that feature",
+    "explanation": "Focus on core value.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 145,
+    "question": "Product good but unknown. What priority?",
+    "answer": "Marketing / distribution",
+    "explanation": "People must know it exists.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 146,
+    "question": "Revenue high but growth flat. What check?",
+    "answer": "New user acquisition",
+    "explanation": "Need expansion.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 147,
+    "question": "Many features, low clarity. What strategy?",
+    "answer": "Simplify product",
+    "explanation": "Focus improves value.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 148,
+    "question": "Short-term profit vs long-term growth. Choose?",
+    "answer": "Depends on stage",
+    "explanation": "Early vs mature company differs.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 149,
+    "question": "Users active but not paying. What strategy?",
+    "answer": "Improve monetization model",
+    "explanation": "Value not captured.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 150,
+    "question": "Team wants many ideas, but resources small. What rule?",
+    "answer": "Focus",
+    "explanation": "Strategy means saying no.",
+    "type": "strategy",
+    "image": null
+  },
+  {
+    "id": 151,
+    "question": "How would you improve Google Maps for daily commuters?",
+    "answer": "Focus on commute reliability",
+    "explanation": "Daily users care more about predictability than new features.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 152,
+    "question": "Design a product for people who forget tasks often. First step?",
+    "answer": "Understand when they forget",
+    "explanation": "Problem context defines solution.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 153,
+    "question": "Your feature increased usage but reduced satisfaction. What do?",
+    "answer": "Re-evaluate success metric",
+    "explanation": "Usage alone is not success.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 154,
+    "question": "How would you decide which feature to build next?",
+    "answer": "Impact vs effort vs goal",
+    "explanation": "Prioritization needs framework.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 155,
+    "question": "Design a better alarm clock app. What first?",
+    "answer": "Define user scenarios",
+    "explanation": "Different users need different alarms.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 156,
+    "question": "How measure success of a new feature?",
+    "answer": "Define metric before launch",
+    "explanation": "Need clear success criteria.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 157,
+    "question": "Users say product slow, data says fast. What next?",
+    "answer": "Check perceived performance",
+    "explanation": "User feeling matters.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 158,
+    "question": "Design product for students with low focus. First step?",
+    "answer": "Understand distractions",
+    "explanation": "Solve root cause.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 159,
+    "question": "You must cut half the roadmap. How decide?",
+    "answer": "Align with goal",
+    "explanation": "Strategy decides priority.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 160,
+    "question": "Feature loved by users but hard to maintain. Keep?",
+    "answer": "Check long-term value",
+    "explanation": "Balance cost vs impact.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 161,
+    "question": "Design YouTube for kids. First concern?",
+    "answer": "Safety",
+    "explanation": "User context matters.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 162,
+    "question": "Your product growing but team overloaded. What do?",
+    "answer": "Prioritize ruthlessly",
+    "explanation": "Cannot do everything.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 163,
+    "question": "How decide between two good ideas?",
+    "answer": "Test with users",
+    "explanation": "Real feedback beats opinion.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 164,
+    "question": "Design feature for busy professionals. Key factor?",
+    "answer": "Speed",
+    "explanation": "Time is main constraint.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 165,
+    "question": "Product easy but not useful. Fix what?",
+    "answer": "Value",
+    "explanation": "Utility first.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 166,
+    "question": "Users love feature but it slows app. Keep?",
+    "answer": "Optimize or rethink",
+    "explanation": "Performance affects all.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 167,
+    "question": "How improve retention?",
+    "answer": "Increase core value",
+    "explanation": "People return for value.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 168,
+    "question": "Design product for global users. First challenge?",
+    "answer": "Different needs",
+    "explanation": "One design may not fit all.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 169,
+    "question": "Feature popular but confusing. What do?",
+    "answer": "Improve UX",
+    "explanation": "Keep value, fix usability.",
+    "type": "faang_pm",
+    "image": null
+  },
+  {
+    "id": 170,
+    "question": "What makes a product successful?",
+    "answer": "Solves real problem well",
+    "explanation": "Core of product thinking.",
+    "type": "faang_pm",
+    "image": null
+  }
+]
