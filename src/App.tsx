@@ -15,13 +15,21 @@ interface Question {
   image: string | null;
 }
 
+interface HistoryItem {
+  date: string;
+  questionId: number;
+  userAnswer: string;
+  isCorrect: boolean;
+}
+
 interface Progress {
   totalSolved: number;
   streak: number;
   lastSolvedDate: string | null;
+  history?: HistoryItem[];
 }
 
-type View = 'home' | 'result' | 'progress';
+type View = 'home' | 'result' | 'progress' | 'history';
 
 export default function App() {
   const [view, setView] = useState<View>('home');
@@ -68,10 +76,18 @@ export default function App() {
       const yesterday = new Date(Date.now() - 86400000).toISOString().split('T')[0];
       const newStreak = progress.lastSolvedDate === yesterday ? progress.streak + 1 : 1;
       
+      const newHistoryItem: HistoryItem = {
+        date: today,
+        questionId: currentQuestion.id,
+        userAnswer: userAnswer.trim(),
+        isCorrect: correct
+      };
+
       setProgress(prev => ({
         totalSolved: prev.totalSolved + 1,
         streak: newStreak,
-        lastSolvedDate: today
+        lastSolvedDate: today,
+        history: [...(prev.history || []), newHistoryItem]
       }));
     }
     
@@ -225,11 +241,69 @@ export default function App() {
           </div>
         </main>
 
+        <div className="w-full space-y-3">
+          <button
+            onClick={() => setView('history')}
+            className="w-full py-3 border border-gray-300 text-gray-600 uppercase text-xs tracking-[0.2em] hover:border-black hover:text-black bg-white"
+          >
+            View History
+          </button>
+          <button
+            onClick={() => setView('home')}
+            className="w-full py-3 border border-black uppercase text-xs tracking-[0.2em] hover:bg-black hover:text-white"
+          >
+            Back to Challenge
+          </button>
+        </div>
+      </div>
+    );
+  };
+
+  const renderHistory = () => {
+    const historyList = progress.history || [];
+    
+    return (
+      <div className="flex flex-col items-center justify-center space-y-8 w-full max-w-md mx-auto">
+        <header className="text-center space-y-2">
+          <h1 className="text-3xl font-light tracking-tighter uppercase">History</h1>
+          <p className="text-gray-400 text-xs tracking-widest uppercase">Past Challenges</p>
+        </header>
+
+        <main className="w-full space-y-4">
+          {historyList.length === 0 ? (
+            <div className="bg-white p-8 border border-gray-100 text-center text-gray-500 text-sm">
+              No history yet. Complete today's challenge!
+            </div>
+          ) : (
+            <div className="space-y-4 max-h-[60vh] overflow-y-auto pr-2">
+              {[...historyList].reverse().map((item, index) => {
+                const q = questions.find(q => q.id === item.questionId);
+                if (!q) return null;
+                return (
+                  <div key={index} className="bg-white p-6 border border-gray-100 space-y-4">
+                    <div className="flex justify-between items-center border-b border-gray-100 pb-2">
+                      <span className="text-[10px] uppercase tracking-widest text-gray-400">{item.date}</span>
+                      <span className={`text-[10px] uppercase tracking-widest ${item.isCorrect ? 'text-black' : 'text-gray-400'}`}>
+                        {item.isCorrect ? 'Correct' : 'Incorrect'}
+                      </span>
+                    </div>
+                    <p className="text-sm font-serif italic text-gray-800">"{q.question}"</p>
+                    <div className="space-y-1 pt-2">
+                      <p className="text-xs text-gray-500">Your Answer: <span className="text-black">{item.userAnswer}</span></p>
+                      <p className="text-xs text-gray-500">Correct Answer: <span className="text-black">{q.answer}</span></p>
+                    </div>
+                  </div>
+                );
+              })}
+            </div>
+          )}
+        </main>
+
         <button
-          onClick={() => setView('home')}
+          onClick={() => setView('progress')}
           className="w-full py-3 border border-black uppercase text-xs tracking-[0.2em] hover:bg-black hover:text-white"
         >
-          Back to Challenge
+          Back to Progress
         </button>
       </div>
     );
@@ -241,6 +315,7 @@ export default function App() {
         {view === 'home' && renderHome()}
         {view === 'result' && renderResult()}
         {view === 'progress' && renderProgress()}
+        {view === 'history' && renderHistory()}
       </div>
     </div>
   );
