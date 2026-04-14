@@ -4,7 +4,11 @@
  */
 
 import React, { useState, useEffect, useMemo } from 'react';
+import { GoogleGenAI, Type } from '@google/genai';
+import { CheckCircle, XCircle } from 'lucide-react';
 import questionsData from './questions.json';
+
+const ai = new GoogleGenAI({ apiKey: process.env.GEMINI_API_KEY });
 
 interface Question {
   id: number;
@@ -35,6 +39,7 @@ export default function App() {
   const [view, setView] = useState<View>('home');
   const [userAnswer, setUserAnswer] = useState('');
   const [isCorrect, setIsCorrect] = useState<boolean | null>(null);
+  const [isEvaluating, setIsEvaluating] = useState(false);
   const [progress, setProgress] = useState<Progress>(() => {
     const saved = localStorage.getItem('daily_challenge_progress');
     if (saved) {
@@ -65,11 +70,46 @@ export default function App() {
     localStorage.setItem('daily_challenge_progress', JSON.stringify(progress));
   }, [progress]);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (isAlreadySolvedToday) return;
+    if (isAlreadySolvedToday || !userAnswer.trim()) return;
 
-    const correct = userAnswer.trim().toLowerCase() === currentQuestion.answer.toLowerCase();
+    setIsEvaluating(true);
+
+    let correct = false;
+    try {
+      const response = await ai.models.generateContent({
+        model: "gemini-3.1-flash-lite-preview",
+        contents: `You are an evaluator for a daily thinking challenge.
+Question: "${currentQuestion.question}"
+Correct Answer: "${currentQuestion.answer}"
+Explanation: "${currentQuestion.explanation}"
+User's Answer: "${userAnswer.trim()}"
+
+Does the user's answer match the intent of the correct answer? It does not need to be an exact word-for-word match, but the core idea must be correct.`,
+        config: {
+          responseMimeType: "application/json",
+          responseSchema: {
+            type: Type.OBJECT,
+            properties: {
+              isCorrect: {
+                type: Type.BOOLEAN,
+                description: "True if the user's answer matches the intent of the correct answer, false otherwise."
+              }
+            },
+            required: ["isCorrect"]
+          }
+        }
+      });
+
+      const result = JSON.parse(response.text.trim());
+      correct = result.isCorrect;
+    } catch (error) {
+      console.error("Evaluation error:", error);
+      // Fallback to exact match if API fails
+      correct = userAnswer.trim().toLowerCase() === currentQuestion.answer.toLowerCase();
+    }
+
     setIsCorrect(correct);
     
     if (!isAlreadySolvedToday) {
@@ -91,6 +131,7 @@ export default function App() {
       }));
     }
     
+    setIsEvaluating(false);
     setView('result');
   };
 
@@ -157,10 +198,10 @@ export default function App() {
             />
             <button
               type="submit"
-              disabled={!userAnswer.trim()}
+              disabled={!userAnswer.trim() || isEvaluating}
               className="w-full py-3 border border-black uppercase text-xs tracking-[0.2em] hover:bg-black hover:text-white disabled:opacity-30"
             >
-              Submit
+              {isEvaluating ? 'Evaluating...' : 'Submit'}
             </button>
           </form>
         </main>
@@ -281,11 +322,17 @@ export default function App() {
                 if (!q) return null;
                 return (
                   <div key={index} className="bg-white p-6 border border-gray-100 space-y-4">
-                    <div className="flex justify-between items-center border-b border-gray-100 pb-2">
-                      <span className="text-[10px] uppercase tracking-widest text-gray-400">{item.date}</span>
-                      <span className={`text-[10px] uppercase tracking-widest ${item.isCorrect ? 'text-black' : 'text-gray-400'}`}>
-                        {item.isCorrect ? 'Correct' : 'Incorrect'}
-                      </span>
+                    <div className="flex justify-between items-center border-b border-gray-100 pb-3">
+                      <div className="flex items-center space-x-3">
+                        <span className="text-[10px] uppercase tracking-widest text-gray-400">{item.date}</span>
+                        <span className="text-[10px] bg-gray-100 px-2 py-1 uppercase tracking-tighter text-gray-500">
+                          {q.type}
+                        </span>
+                      </div>
+                      <div className={`flex items-center space-x-1 text-[10px] uppercase tracking-widest ${item.isCorrect ? 'text-black' : 'text-gray-400'}`}>
+                        {item.isCorrect ? <CheckCircle size={14} /> : <XCircle size={14} />}
+                        <span>{item.isCorrect ? 'Correct' : 'Incorrect'}</span>
+                      </div>
                     </div>
                     <p className="text-sm font-serif italic text-gray-800">"{q.question}"</p>
                     <div className="space-y-1 pt-2">
